@@ -16,3 +16,24 @@ module.exports = {
     "no-console": ERROR
   }
 };
+
+// eslint-config-base
+
+// @hover-design/eslint-config-base
+//
+//
+//Option-1:
+// @hover-design/eslint-config --> base rules
+// @hover-design/eslint-config/react  --> react rules
+// @hover-design/eslint-config/vue --> vue rules
+//
+//
+//Option-2:
+// @hover-design/eslint-config-base --> base rules
+// @hover-design/eslint-config-react  --> react rules
+// @hover-design/eslint-config-vue --> vue rules
+
+//
+//
+//eslintrc.js
+// extends: ["@hover-design/eslint-config/react"]
